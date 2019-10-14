@@ -3,7 +3,7 @@
 # only Main files contain this front matter, not partials.
 ---
 
-//@import 'variables';
+@import "bootstrap";
 
 .content {
   width: 45rem;
