@@ -21,14 +21,12 @@ baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "https://loljoho.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: loljoho
 permalink: pretty
-author: Jonathan Ho (Joho)
 
 # Build settings
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
