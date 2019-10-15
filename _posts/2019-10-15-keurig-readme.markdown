@@ -2,6 +2,7 @@
 layout: post
 title:  "Keurig README"
 date:   2019-10-15 18:20:22 -0400
+last_update: 2019-10-15 18:36:22 -0400
 categories: coffee
 ---
 
@@ -45,7 +46,7 @@ If you see the bottle(s) of water running low, kindly (and carefully) fill them 
 
 ### Step 5 - Brew
 
-**Press the **"Brew"** button**
+**Press the "Brew" button**
 
  - Once it finishes brewing, try to remember to remove your used K-Cup pod from the holder for the next person
  - If it begins to overflow, panic and scream--you clearly did not read these directions thoroughly
