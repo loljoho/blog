@@ -5,7 +5,7 @@ date:   2019-10-15 18:20:22 -0400
 categories: coffee
 ---
 
-It has recently come to my attention that a number of individuals are puzzled by the contraption in the corner, so I've taken time out of of my *extremely busy life* to write up a README describing its use.
+It has recently come to my attention that a number of individuals are puzzled or intimidated by the contraption in the corner, so I've taken time out of of my *extremely busy life* to write up a README describing its use.
 
 If you see the bottle(s) of water running low, kindly (and carefully) fill them up at the water fountain located outside the room.
 
