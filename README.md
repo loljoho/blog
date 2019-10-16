@@ -34,19 +34,9 @@ I've created partial lists of the technologies and techniques I employ in the de
 
 ### Development & Workflow
 
- - I use a modified version of the [Git Feature Branch Workflow][git-workflow]:
-   - I use `gh-pages` instead of `master` because I'm deploying directly to GitHub Pages
-   - I use `develop` as a development branch:
-     - All `feat/*` branches are branched off of `develop`
-     - All `feat/*` branches are merged back into `develop`
-   - I use `release/*` branches before merging into `gh-pages`:
-     - All `release/*` branches are branched off of `develop`
-     - All `release/*` branches are merged into both `develop` and `gh-pages`
- - More details on my Git workflow can be found [here][git-branching]
- - I (obviously) use my GitHub repository to manage my development process:
-   - I utilise the [Issues][repo-issues] tracker with [Milestones][repo-milestones]
-   - I utilise the [Projects][repo-projects] boards and [Automated Kanban][gh-help-projects] templates
-   - I adhere to [Semantic Versioning][semver], although it is not as much of a priority or concern given the nature of this project.
+ - I use `gh-pages` instead of `master` because I'm deploying directly to a GitHub Pages project site
+ - I (obviously) use my GitHub repository to manage my development process
+ - I adhere to [Semantic Versioning][semver], although it is not as much of a priority or concern given the nature of this project.
  - More on this later!
 
 
