@@ -34,7 +34,7 @@ I've created partial lists of the technologies and techniques I employ in the de
 
 ### Development & Workflow
 
- - I use a modified version of the [Git Feature Branch Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow):
+ - I use a modified version of the [Git Feature Branch Workflow][git-workflow]:
    - I use `gh-pages` instead of `master` because I'm deploying directly to GitHub Pages
    - I use `develop` as a development branch:
      - All `feat/*` branches are branched off of `develop`
@@ -42,11 +42,11 @@ I've created partial lists of the technologies and techniques I employ in the de
    - I use `release/*` branches before merging into `gh-pages`:
      - All `release/*` branches are branched off of `develop`
      - All `release/*` branches are merged into both `develop` and `gh-pages`
- - More details on my Git workflow can be found [here](https://nvie.com/posts/a-successful-git-branching-model/)
+ - More details on my Git workflow can be found [here][git-branching]
  - I (obviously) use my GitHub repository to manage my development process:
-   - I utilise the [Issues](https://github.com/loljoho/blog/issues) tracker with [Milestones](https://github.com/loljoho/blog/milestones)
-   - I utilise the [Projects](https://github.com/loljoho/blog/projects) boards and [Automated Kanban](https://help.github.com/en/articles/about-project-boards) templates
-   - I adhere to [Semantic Versioning](https://semver.org/), although it is not as much of a priority or concern given the nature of this project.
+   - I utilise the [Issues][repo-issues] tracker with [Milestones][repo-milestones]
+   - I utilise the [Projects][repo-projects] boards and [Automated Kanban][gh-help-projects] templates
+   - I adhere to [Semantic Versioning][semver], although it is not as much of a priority or concern given the nature of this project.
  - More on this later!
 
 
@@ -90,3 +90,11 @@ Fin.
 [minima-repo]:https://github.com/jekyll/minima
 [sass-site]:https://sass-lang.com/
 [icomoon-site]:https://icomoon.io
+
+[git-workflow]:https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow
+[git-branching]:https://nvie.com/posts/a-successful-git-branching-model/
+[repo-issues]:https://github.com/loljoho/blog/issues
+[repo-milestones]:https://github.com/loljoho/blog/milestones
+[repo-projects]:https://github.com/loljoho/blog/projects
+[gh-help-projects]:https://help.github.com/en/articles/about-project-boards
+[semver]:https://semver.org/
