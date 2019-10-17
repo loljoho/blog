@@ -36,15 +36,15 @@ And let's put some code in:
 
 ```js
 // this will log out the first string passed
-console.log(command.argv[2]);
+console.log(process.argv[2]);
 ```
 
-The `command.argv` refers to an **Array** with the following elements:
- - **`command.argv[0]`** - this will contain the filepath to your Node.js
- - **`command.argv[1]`** - this will contain the filepath to the JavaScript file being called
- - **`command.argv[2]`** - this will contain the first argument value when you execute the JavaScript file
- - **`command.argv[3]`** - this will contain the second argument value when you execute the JavaScript file
- - **`command.argv[4]`** - this will contain the third argument value when you execute the JavaScript file
+The `process.argv` refers to an **Array** with the following elements:
+ - **`process.argv[0]`** - this will contain the filepath to your Node.js
+ - **`process.argv[1]`** - this will contain the filepath to the JavaScript file being called
+ - **`process.argv[2]`** - this will contain the first argument value when you execute the JavaScript file
+ - **`process.argv[3]`** - this will contain the second argument value when you execute the JavaScript file
+ - **`process.argv[4]`** - this will contain the third argument value when you execute the JavaScript file
  - ... and so on, and so forth
 
 Save it, go back into your command line, and run it:
