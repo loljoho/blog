@@ -14,7 +14,9 @@ Throw this into your Terminal or Git Bash:
 echo "hello world"
 ```
 
-Just like commands such as `cd`, `mv`, or `cp`, **`echo`** accepts an **argument**.
+Just like commands such as `cd`, `mv`, or `cp`...
+
+The [**`echo`**](http://linuxcommand.org/lc3_man_pages/echoh.html) command accepts an **argument**.
 
 Now, let's look at re-creating it with Node.js.
 
