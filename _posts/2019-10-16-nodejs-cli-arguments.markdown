@@ -33,13 +33,8 @@ code myEcho.js
 And let's put some code in:
 
 ```js
+// this will log out the first string passed
 console.log(command.argv[2]);
-```
-
-Save it, go back into your command line, and run it:
-
-```bash
-node myEcho.js "hello world"
 ```
 
 The `command.argv` refers to an **Array** with the following elements:
@@ -49,11 +44,17 @@ The `command.argv` refers to an **Array** with the following elements:
  - **`command.argv[3]`** - this will contain the second argument value when you execute the JavaScript file
  - **`command.argv[4]`** - this will contain the third argument value when you execute the JavaScript file
  - ... and so on, and so on
-https://loljoho.github.io/blog/dev/2019/10/17/nodejs-cli-arguments/
+
+Save it, go back into your command line, and run it:
+
+```bash
+node myEcho.js "hello world"
+```
+
 So, what you should see after running the above command is something like this:
 
 ```bash
-joho@clara:~/temp$ node myEcho.js "hello world"
+joho@clara:~$ node myEcho.js "hello world"
 hello world
 ```
 
