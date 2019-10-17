@@ -6,6 +6,8 @@ last_update:
 categories: dev
 ---
 
+I understand that Node.js on the command line can be extremely confusing, and I *know* for a fact that many people are perplexed.  I hope this example can help you all understand!
+
 Throw this into your Terminal or Git Bash:
 
 ```bash
@@ -47,7 +49,7 @@ The `command.argv` refers to an **Array** with the following elements:
  - **`command.argv[3]`** - this will contain the second argument value when you execute the JavaScript file
  - **`command.argv[4]`** - this will contain the third argument value when you execute the JavaScript file
  - ... and so on, and so on
-
+https://loljoho.github.io/blog/dev/2019/10/17/nodejs-cli-arguments/
 So, what you should see after running the above command is something like this:
 
 ```bash
@@ -56,3 +58,6 @@ hello world
 ```
 
 Please Slack me if you find this confusing, and I'll try to update it accordingly!
+
+Credits to the following users for helping out:
+ - [@varunmaster](https://github.com/varunmaster/) - for accusing me of being the Terminator because I didn't set the timezone for the site yet, so it shows up at October 17th
