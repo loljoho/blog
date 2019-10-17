@@ -43,7 +43,7 @@ The `command.argv` refers to an **Array** with the following elements:
  - **`command.argv[2]`** - this will contain the first argument value when you execute the JavaScript file
  - **`command.argv[3]`** - this will contain the second argument value when you execute the JavaScript file
  - **`command.argv[4]`** - this will contain the third argument value when you execute the JavaScript file
- - ... and so on, and so on
+ - ... and so on, and so forth
 
 Save it, go back into your command line, and run it:
 
