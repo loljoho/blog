@@ -48,4 +48,11 @@ The `command.argv` refers to an **Array** with the following elements:
  - **`command.argv[4]`** - this will contain the third argument value when you execute the JavaScript file
  - ... and so on, and so on
 
+So, what you should see after running the above command is something like this:
+
+```bash
+joho@clara:~/temp$ node myEcho.js "hello world"
+hello world
+```
+
 Please Slack me if you find this confusing, and I'll try to update it accordingly!
