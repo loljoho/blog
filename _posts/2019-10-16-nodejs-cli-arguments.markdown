@@ -60,4 +60,4 @@ hello world
 Please Slack me if you find this confusing, and I'll try to update it accordingly!
 
 Credits to the following users for helping out:
- - [@varunmaster](https://github.com/varunmaster/) - for accusing me of being the Terminator because I didn't set the timezone for the site yet, so it shows up at October 17th
+ - [@varunmaster](https://github.com/varunmaster/) - for accusing me of being the Terminator because I didn't set the timezone for the site yet, so it shows up as October 17th, but otherwise being pretty useless ;)
