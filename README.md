@@ -47,15 +47,58 @@ I've created partial lists of the technologies and techniques I employ in the de
 ### Requirements
 
  - [Ruby][ruby-site] v2.6.5 or above
+ - [RubyGems][rubygems-site]
+ - [Jekyll][jekyll-3.8.6-repo] v3.8.6 (*not* 4.0.0 or above!)
+ - [Bundler](https://jekyllrb.com/docs/ruby-101/#bundler)
+ - ...and all the [Jekyll requirements](https://jekyllrb.com/docs/installation/)
+ - Wait, are you seriously considering cloning this and running it?
 
 
+### Procedure
+
+Clone the repository and enter the directory:
+```bash
+git clone https://github.com/loljoho/blog.git
+cd blog/
+```
+
+Install the project gems:
+```bash
+bundle install
+```
+
+Congratulations, you've made it this far!  Serve it up:
+```bash
+bundle exec jekyll serve
+```
+
+Now you just need to browse to http://localhost:4000 to see it.
+
+
+
+
+---
 
 
 ## Contributing
 
-More to come.
+### Contributing Posts
+
+If you wish to contribute a post to the blog, I will write a detailed thingy to outline it.  
+
+Make sure you change the `author` value in the YAML front matter of your file accordingly.
 
 
+### Contributing Code
+
+Please, for the love of Buddha, if you have some serious CSS/Sass/Scss skills and a good eye for design, reach out to me!
+
+If you only have a good eye for design, reach out to me!
+
+If you suck at design, then I don't know.
+
+
+---
 
 
 ## Miscellaneous
