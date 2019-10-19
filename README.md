@@ -2,14 +2,12 @@
 
 > Was gonna name the repository "Bloggy-McBlogface" but that'd be like, super annoying
 
+Anyways, I created this blog when I noticed *many* students were struggling with particular issues, and there didn't seem to be any good examples/tutorials/articles out there that laid it all out in simple, easy-to-understand (and less technical) terms.
+
+I genuinely hope it brings as much elation, entertainment, and education to its readers as much as it did for me while I was developing it!
 
 
-
-## Overview
-
-I hope it brings as much elation, entertainment, and education to its readers as much as it did for me while I was developing it!
-
-
+---
 
 
 ## Details
@@ -40,6 +38,7 @@ I've created partial lists of the technologies and techniques I employ in the de
  - More on this later!
 
 
+---
 
 
 ## Usage
