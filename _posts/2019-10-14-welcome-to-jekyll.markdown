@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Welcome to Jekyll!"
+author: "Joho"
 date:   2019-10-14 14:09:34 -0400
 categories: jekyll update
 ---
