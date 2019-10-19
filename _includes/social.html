@@ -1,10 +1,12 @@
-{%- assign social = site.minima.social_links -%}
+{%- assign social = site.social_links -%}
 
 <ul class="social-media-list">
   {%- if social.dribbble -%}
     <li>
       <a href="https://dribbble.com/{{ social.dribbble | cgi_escape | escape }}"
-      title="{{ social.dribbble | escape }}">
+      title="{{ social.dribbble | escape }}"
+      target="_blank"
+      rel="noopener noreferrer">
       <svg class="svg-icon grey">
         <use xlink:href="{{ '/assets/img/icons/minima-social-icons.svg#dribbble' | relative_url }}"></use>
       </svg>
@@ -14,7 +16,9 @@
   {%- if social.facebook -%}
     <li>
       <a href="https://www.facebook.com/{{ social.facebook | cgi_escape | escape }}"
-      title="{{ social.facebook | escape }}">
+      title="{{ social.facebook | escape }}"
+      target="_blank"
+      rel="noopener noreferrer">
       <svg class="svg-icon grey">
         <use xlink:href="{{ '/assets/img/icons/minima-social-icons.svg#facebook' | relative_url }}"></use>
       </svg>
@@ -24,7 +28,9 @@
   {%- if social.flickr -%}
     <li>
       <a href="https://www.flickr.com/photos/{{ social.flickr | cgi_escape | escape }}"
-      title="{{ social.flickr | escape }}">
+      title="{{ social.flickr | escape }}"
+      target="_blank"
+      rel="noopener noreferrer">
       <svg class="svg-icon grey">
         <use xlink:href="{{ '/assets/img/icons/minima-social-icons.svg#flickr' | relative_url }}"></use>
       </svg>
@@ -46,7 +52,9 @@
   {%- if social.instagram -%}
     <li>
       <a href="https://www.instagram.com/{{ social.instagram | cgi_escape | escape }}"
-      title="{{ social.instagram | escape }}">
+      title="{{ social.instagram | escape }}"
+      target="_blank"
+      rel="noopener noreferrer">
       <svg class="svg-icon grey">
         <use xlink:href="{{ '/assets/img/icons/minima-social-icons.svg#instagram' | relative_url }}"></use>
       </svg>
@@ -56,7 +64,9 @@
   {%- if social.linkedin -%}
     <li>
       <a href="https://www.linkedin.com/in/{{ social.linkedin | cgi_escape | escape }}"
-      title="{{ social.linkedin | escape }}">
+      title="{{ social.linkedin | escape }}"
+      target="_blank"
+      rel="noopener noreferrer">
       <svg class="svg-icon grey">
         <use xlink:href="{{ '/assets/img/icons/minima-social-icons.svg#linkedin' | relative_url }}"></use>
       </svg>
@@ -66,7 +76,9 @@
   {%- if social.pinterest -%}
     <li>
       <a href="https://www.pinterest.com/{{ social.pinterest | cgi_escape | escape }}"
-      title="{{ social.pinterest | escape }}">
+      title="{{ social.pinterest | escape }}"
+      target="_blank"
+      rel="noopener noreferrer">
       <svg class="svg-icon grey">
         <use xlink:href="{{ '/assets/img/icons/minima-social-icons.svg#pinterest' | relative_url }}"></use>
       </svg>
@@ -76,7 +88,9 @@
   {%- for mst in social.mastodon -%}{%- if mst.username and mst.instance -%}
     <li>
       <a rel="me"
-      href="https://{{ mst.instance | cgi_escape | escape}}/@{{mst.username}}" title="{{ mst.username | escape }}">
+      href="https://{{ mst.instance | cgi_escape | escape}}/@{{mst.username}}" title="{{ mst.username | escape }}"
+      target="_blank"
+      rel="noopener noreferrer">
       <svg
         class="svg-icon grey">
         <use xlink:href="{{ '/assets/img/icons/minima-social-icons.svg#mastodon' | relative_url }}"></use>
@@ -87,7 +101,9 @@
   {%- if social.twitter -%}
     <li>
       <a href="https://twitter.com/{{ social.twitter | cgi_escape | escape }}"
-      title="{{ social.twitter | escape }}">
+      title="{{ social.twitter | escape }}"
+      target="_blank"
+      rel="noopener noreferrer">
       <svg class="svg-icon grey">
         <use xlink:href="{{ '/assets/img/icons/minima-social-icons.svg#twitter' | relative_url }}"></use>
       </svg>
@@ -97,7 +113,9 @@
   {%- if social.youtube -%}
     <li>
       <a href="https://www.youtube.com/{{ social.youtube | cgi_escape | escape }}"
-      title="{{ social.youtube | escape }}">
+      title="{{ social.youtube | escape }}"
+      target="_blank"
+      rel="noopener noreferrer">
       <svg class="svg-icon grey">
         <use xlink:href="{{ '/assets/img/icons/minima-social-icons.svg#youtube' | relative_url }}"></use>
       </svg>
@@ -108,7 +126,9 @@
     <li>
       <a
       href="https://www.youtube.com/channel/{{ social.youtube_channel | cgi_escape | escape }}"
-      title="{{ social.youtube_channel_name | escape | default: 'YouTube' }}">
+      title="{{ social.youtube_channel_name | escape | default: 'YouTube' }}"
+      target="_blank"
+      rel="noopener noreferrer">
       <svg class="svg-icon grey">
         <use xlink:href="{{ '/assets/img/icons/minima-social-icons.svg#youtube' | relative_url }}"></use>
       </svg>
@@ -118,7 +138,9 @@
   {%- if social.telegram -%}
     <li>
       <a href="https://t.me/{{ social.telegram | cgi_escape | escape }}"
-      title="{{ social.telegram | escape }}">
+      title="{{ social.telegram | escape }}"
+      target="_blank"
+      rel="noopener noreferrer">
       <svg class="svg-icon grey">
         <use xlink:href="{{ '/assets/img/icons/minima-social-icons.svg#telegram' | relative_url }}"></use>
       </svg>
@@ -128,7 +150,9 @@
   {%- if social.keybase -%}
     <li>
       <a href="https://keybase.io/{{ social.keybase | cgi_escape | escape }}"
-      title="{{ social.keybase | escape }}">
+      title="{{ social.keybase | escape }}"
+      target="_blank"
+      rel="noopener noreferrer">
       <svg class="svg-icon grey">
         <use xlink:href="{{ '/assets/img/icons/minima-social-icons.svg#keybase' | relative_url }}"></use>
       </svg>
@@ -139,7 +163,9 @@
     <li>
       <a rel="me"
       href="https://micro.blog/{{ social.microdotblog | cgi_escape | escape }}"
-      title="{{ social.microdotblog | escape }}">
+      title="{{ social.microdotblog | escape }}"
+      target="_blank"
+      rel="noopener noreferrer">
       <svg class="svg-icon grey">
         <use xlink:href="{{ '/assets/img/icons/minima-social-icons.svg#microdotblog' | relative_url }}"></use>
       </svg>
@@ -149,7 +175,9 @@
   {%- if social.rss -%}
     <li>
       <a href="{{ 'feed.xml' | relative_url }}" 
-      title="{{ social.rss | escape }}">
+      title="{{ social.rss | escape }}"
+      target="_blank"
+      rel="noopener noreferrer">
         <svg class="svg-icon grey">
         <use xlink:href="{{ '/assets/img/icons/minima-social-icons.svg#rss' | relative_url }}"></use>
       </svg>
