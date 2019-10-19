@@ -72,7 +72,7 @@ Congratulations, you've made it this far!  Serve it up:
 bundle exec jekyll serve
 ```
 
-Now you just need to browse to http://localhost:4000 to see it.
+Now you just need to browse to http://localhost:4000/blog/ to see it.
 
 
 
