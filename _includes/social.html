@@ -33,8 +33,10 @@
   {%- endif -%}
   {%- if social.github -%}
     <li>
-      <a href="https://github.com/{{ social.github | cgi_escape | escape }}"
-      title="{{ social.github | escape }}">
+      <a href="{{ social.github | uri_escape | escape }}"
+      title="{{ social.github | escape }}"
+      target="_blank"
+      rel="noopener noreferrer">
       <svg class="svg-icon grey">
         <use xlink:href="{{ '/assets/img/icons/minima-social-icons.svg#github' | relative_url }}"></use>
       </svg>
