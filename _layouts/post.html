@@ -7,22 +7,29 @@ layout: default
   <header class="post-header">
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
     <p class="post-meta">
-      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        
-        {{ page.date | date: date_format }}
-      </time>
+
       {%- if page.author -%}
-        • <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+          Author: 
             <span class="p-author h-card" itemprop="name">
               {{ page.author | escape }}
             </span>
           </span>
       {%- endif -%}
-      {%- if page.update -%}
-        <time class="dt-updated" datetime="{{ page.update | date_to_xmlschema }}" itemprop="dateUpdated">
-          (Last Updated {{ page.update | date: date_format }})
+
+      {%- if page.date -%}
+        <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+          Posted: 
+          {{ page.date | date: date_format }}
         </time>
       {%- endif -%}
+
+      {%- if page.update -%}
+        <time class="dt-updated" datetime="{{ page.update | date_to_xmlschema }}" itemprop="dateUpdated">
+          Updated: {{ page.update | date: date_format }}
+        </time>
+      {%- endif -%}
+
     </p>
   </header>
 
