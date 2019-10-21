@@ -3,7 +3,7 @@ layout: post
 title:  "Node.js CLI Arguments"
 author: "Joho"
 date:   2019-10-16 20:24:36 -0400
-update: 
+update: 2019-10-21 06:49:00 -0400
 categories: dev
 ---
 
@@ -64,4 +64,5 @@ hello world
 Please Slack me if you find this confusing, and I'll try to update it accordingly!
 
 Credits to the following users for helping out:
+ - [@michaelpaulcuccia](https://github.com/michaelpaulcuccia) - for catching the ***massive*** mistake I made that @varunmaster failed to notice
  - [@varunmaster](https://github.com/varunmaster/) - for accusing me of being the Terminator because I didn't set the timezone for the site yet, so it shows up as October 17th, but otherwise being pretty useless ;)
