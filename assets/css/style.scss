@@ -3,3 +3,12 @@
 ---
 
 @import "minima";
+
+// Post Metadata
+// minima/_layout.scss
+// Line 215
+.post-meta {
+  > * {
+    display: block;
+  }
+}
