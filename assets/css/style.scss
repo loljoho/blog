@@ -18,3 +18,9 @@ $mono-font-family: 'Roboto Mono', "Lucida Console", Monaco, monospace;
     display: block;
   }
 }
+
+// Monospace Code
+code,
+pre {
+  font-family: $mono-font-family;
+}
