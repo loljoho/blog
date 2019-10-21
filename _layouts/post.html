@@ -18,6 +18,11 @@ layout: default
             </span>
           </span>
       {%- endif -%}
+      {%- if page.update -%}
+        <time class="dt-updated" datetime="{{ page.update | date_to_xmlschema }}" itemprop="dateUpdated">
+          (Last Updated {{ page.update | date: date_format }})
+        </time>
+      {%- endif -%}
     </p>
   </header>
 
