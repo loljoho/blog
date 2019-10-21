@@ -5,10 +5,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap&subset=latin-ext');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap&subset=latin-ext');
 
-$base-font-family: "Lato", Verdana, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-$mono-font-family: 'Roboto Mono', "Lucida Console", Monaco, monospace;
-
-@import "minima";
+@import 'minima';
 
 // Post Metadata
 // minima/_layout.scss
