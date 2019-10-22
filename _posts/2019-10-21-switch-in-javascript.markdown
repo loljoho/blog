@@ -68,3 +68,7 @@ switch (favLetter) {
 ```
 
 Fin.
+
+Credits to the following users for helping out:
+
+ - [@jhadev](https://github.com/jhadev) - for a quick lookover, so if I messed up, blame him ;)
