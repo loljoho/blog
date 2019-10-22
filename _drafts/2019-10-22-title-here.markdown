@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Title Here"
-author: "MyName"
+author: "My Name"
 date:   2019-10-22 12:34:56 -0400
 update: 
 categories: dev
@@ -37,14 +37,24 @@ git checkout -B post/title-here
 cp _drafts/2019-10-22-title-here.markdown _posts/2019-10-22-title-here.markdown
 ```
 
-**5. Make your change, commmit, and push to `gh-pages` on `origin`:**
+***5. Modify the [YAML Front Matter](https://jekyllrb.com/docs/front-matter/) accordingly:**
+```ruby
+layout: post
+title:  "Title Here"
+author: "My Name"
+date:   YYY-MM-DD HH:MM:SS -0400
+update: YYY-MM-DD HH:MM:SS -0400 # leave blank; only do if applicable!
+categories: dev
+```
+
+**6. Make your changes, commmit, and push to `gh-pages` on `origin`:**
 ```bash
 git add _posts/2019-10-22-title-here.markdown
 git commit -m 'Create Post: Title Here'
 git push origin post/title-here
 ```
 
-**6. Make a Pull Request on GitHub and notify me**
+**7. Make a Pull Request on GitHub and notify me**
 
  - Make a new **Pull Request** on GitHub
  - Make sure it's merging into `gh-pages`
